@@ -1,3 +1,4 @@
+/**1.*/
 const products = [{
     image: 'images/products/athletic-cotton-socks-6-pairs.jpg',
     name: 'Black and Gray Athletic Cotton Socks - 6 Pairs',
@@ -24,8 +25,9 @@ const products = [{
     priceCents: 799
 }];
 
+/**2.---*/
 let productsHTML= '';
-
+/**3.---*/ 
 products.forEach((product) => {
     productsHTML += `
      <div class="product-container">
