@@ -1,17 +1,34 @@
 <!--
-    1.data structure cuz it organises data using array and object
+1.data structure cuz it organises data using array and object
 
-    2.Use datastructure to generate HTML instead of writing manually
- * to generate HTML we need to loop through this array
- * forEach = saves each object in product parameter and runs function
- Html for one product from simon's site
- for each product we are creating HTML
+2.Use datastructure to generate HTML instead of writing manually
+  * to generate HTML we need to loop through this array
+  * forEach = saves each object in product parameter and runs function
+  Html for one product from simon's site
+  for each product we are creating HTML
 
- 3.let productsHTML created to combine all generated html on page
-productHTML = productHTML + the string
-: This is accumulator pattern 
-4. first the product.js file so that next script files stores
-data from product.js and then run function to generate HTML
-SCRIPT elements are loaded one by one so order matters
-SO first we save data info in arrays then we generate HTML looping through
--->
+3.let productsHTML created to combine all generated html on page
+  productHTML = productHTML + the string
+  : This is accumulator pattern 
+
+4.first the product.js file so that next script files stores
+  data from product.js and then run function to generate HTML
+  SCRIPT elements are loaded one by one so order matters
+  SO first we save data info in arrays then we generate HTML looping through
+
+5.** AFTER generating html we are targeting add to cart button
+  we are looping through the HTML  so for each of the button we are adding 
+  event listener
+
+6.Adding on top  it will craete an array representing cart
+
+7.we could have simply done cart.push({productName: 'Basketball',
+                                      quantity: 1});
+ but it will only add basketball after all add to cart button
+ so we are using Data Attribute --it is HTML attribute
+ it allows us to attach any info to HTML element
+ its name start with data and then we can give it any name we can want
+ example product-name kebab case
+ we can also attach image or price
+ dataset gives us all the data attribute attach to data 
+ dataset while fetching dataset.productNmae gets convert to camelCase-->
