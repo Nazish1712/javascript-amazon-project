@@ -1,3 +1,6 @@
+/**12.. */
+import{cart} from'../data/cart.js';
+
 /**1.*/
 /**2.---*/
 let productsHTML= '';
