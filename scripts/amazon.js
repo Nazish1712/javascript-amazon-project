@@ -1,5 +1,6 @@
 /**12.. */
 import{cart} from'../data/cart.js';
+import{products} from '../data/products.js';
 
 /**1.*/
 /**2.---*/
